@@ -11,7 +11,7 @@
 function hi() {
     document.getElementById("ed-progress-bar").style.width = "100%";
     document.getElementById("splash-image").style.backgroundImage = "url('https://github.com/Mr-funkinguy/prodigy-loader-api/blob/main/Untitled_Artwork%207.gif?raw=true')";
-    document.getElementsByClassName("loading-logo").backgroundImage="https://github.com/Mr-funkinguy/prodigy-loader-api/blob/main/Untitled_Artwork%20237.png?raw=true";
+   
     SW.Load.init();
     document.getElementById("loading-text").innerHTML = "Prodigy Has No Anti-Cheat LOL";
     setTimeout(function () {
